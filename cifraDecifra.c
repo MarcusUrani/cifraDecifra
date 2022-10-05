@@ -10,7 +10,7 @@ int main(void)
     for (i = 0; i < k; i++)
     {
         fgets(text, 82, stdin);
-        for (j = 0; text[j] != '/n'; j++)
+        for (j = 0; text[j] != '\n'; j++)
         {
             int c = text[j] - n;
             if (c < 32)
@@ -21,6 +21,5 @@ int main(void)
         }
         printf("%s", text);
     }
-
     return 0;
 }
