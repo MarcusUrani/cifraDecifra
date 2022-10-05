@@ -7,6 +7,10 @@ int main(void)
 
     scanf("%d %d", &k, &n);
     getchar();
+    for (i = 0; i < k; i++)
+    {
+        fgets(text, 82, stdin);
+    }
 
     return 0;
 }
