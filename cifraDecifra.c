@@ -6,6 +6,7 @@ int main(void)
     char text[82];
 
     scanf("%d %d", &k, &n);
+    getchar();
 
     return 0;
 }
