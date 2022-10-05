@@ -13,7 +13,7 @@ int main(void)
         for (j = 0; text[j] != '/n'; j++)
         {
             int c = text[j] - n;
-            if (c > 32)
+            if (c < 32)
             {
                 c += 95;
             }
