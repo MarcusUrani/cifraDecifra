@@ -10,6 +10,10 @@ int main(void)
     for (i = 0; i < k; i++)
     {
         fgets(text, 82, stdin);
+        for (j = 0; text[j] != '/n'; j++)
+        {
+            int c = text[j] - k;
+        }
     }
 
     return 0;
