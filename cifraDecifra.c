@@ -12,8 +12,14 @@ int main(void)
         fgets(text, 82, stdin);
         for (j = 0; text[j] != '/n'; j++)
         {
-            int c = text[j] - k;
+            int c = text[j] - n;
+            if (c > 32)
+            {
+                c += 95;
+            }
+            text[j] = c;
         }
+        printf("%s", text);
     }
 
     return 0;
